@@ -7,6 +7,7 @@ import os
 from traducao import abrir_camera_traducao, abrir_camera_salvar_gesto, cadastrar_frases
 
 #AVISO: estou utilizando pyhton 3.11 pois o mediapipe não funciona em versões mais recentes.
+#teste
 
 BAU_PATH = "bau_de_valores.json"
 
