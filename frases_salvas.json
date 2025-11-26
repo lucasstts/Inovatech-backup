@@ -1,0 +1,18 @@
+{
+    "frases": [
+        {
+            "nome": "Tudo bom?",
+            "sequencia": [
+                "Tudo",
+                "Bom"
+            ]
+        },
+        {
+            "nome": "Bom dia!",
+            "sequencia": [
+                "Tudo",
+                "D"
+            ]
+        }
+    ]
+}
