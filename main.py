@@ -169,7 +169,7 @@ def mostrar_frases_simples():
         ("Bom dia.", "bom_dia.png"),
         ("Boa tarde.", "boa_tarde.png"),
         ("Boa noite.", "boa_noite.png"),
-        ("Obrigado!", "obrigado.png")
+
     ]
 
     ultima_imagem = {"arquivo": None}  # guarda arquivo atualmente mostrado (para toggle)
@@ -185,7 +185,7 @@ def mostrar_frases_simples():
         caminho = os.path.join("frases_libras", nome_arquivo)
         if os.path.exists(caminho):
             imagem = Image.open(caminho)
-            imagem = imagem.resize((250, 250))
+            imagem = imagem.resize((955, 245))
             imagem_tk = ImageTk.PhotoImage(imagem)
             imagem_label.config(image=imagem_tk, text='')
             imagem_label.image = imagem_tk
